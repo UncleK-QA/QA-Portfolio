@@ -1,0 +1,16 @@
+{
+
+    "username":"obi.c.kingsley38@gmail.com",
+    "password":"ebube@12",
+    "name":"Ebube Obi",
+    "interests": ["Java", "Testing", "Python" ,"Playwright"],
+    "Gender":"Male",
+    "state":"Imo",
+    "address":{
+                "area":"John Okafor",
+                "city":"Lagos",
+                "pincode":"34"            
+              },
+    "hobbies":["Reading", "Swimming"]          
+
+}

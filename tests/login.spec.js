@@ -15,9 +15,13 @@ test("Valid login", async function ({page}) {
 
     await page.getByRole('button',{name: 'Login'}).click()
 
+    await page.waitForTimeout(5000)
+
     await expect(page).toHaveURL(/.*dashboard.*/);
 
     await page.getByAltText("profile picture").first().click()
+
+    await page.waitForTimeout(3000)
 
     await page.getByText('Logout').click()
 
